@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+#particlesCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#startBtn, #settingsBtn {
+    position: absolute;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s, opacity 1s;
+}
+
+#startBtn {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#startBtn:hover, #settingsBtn:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#settingsBtn {
+    top: 20px;
+    right: 20px;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#rainbowBtn {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s, opacity 1s;
+    opacity: 0; /* Initially hidden, just like the settings button */
+}
+
+#rainbowBtn:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.1);
+}
