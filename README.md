@@ -22,18 +22,10 @@ A mesmerizing web-based interactive particles animation. Watch the particles flo
 
 ### 🔧 Installation & Setup
 
-1. **Clone the Repository**: 
-   ```bash
-   git clone https://github.com/YourUsername/Particles-Animation.git
-   ```
-
-2. **Navigate to Project**: 
-   ```bash
-   cd Particles-Animation
-   ```
-
-3. **Open and Experience**: 
-   Simply launch `index.html` in your browser.
+1. On the main repository page, click the green Code button.
+2. From the dropdown, select Download ZIP.
+3. Once downloaded, extract the ZIP file to a location of your choice.
+4. Navigate to the extracted directory and open index.html in your favorite browser.
 
 ## 🎮 Usage
 
