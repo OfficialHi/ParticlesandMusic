@@ -55,5 +55,3 @@ This project is licensed under the MIT License - see the `LICENSE.md` file for d
 - Inspiration from OpenAI's guidance and the web dev community.
 
 ---
-
-Now, the image link is integrated into the README content, giving readers a visual preview of your project.
